@@ -1,6 +1,5 @@
 import toursListPage from "@/data/toursListPage";
 import React, { useState } from "react";
-import Slider from "react-rangeslider";
 import Select from "react-select";
 
 const { categories, durations } = toursListPage;
@@ -140,13 +139,6 @@ const ToursListLeft = () => {
                       $<span id="max-value-rangeslider">{priceRange}</span>
                     </p>
                   </div>
-                  <Slider
-                    min={0}
-                    max={200}
-                    value={priceRange}
-                    onChange={handlePriceChange}
-                    className="range-slider-price"
-                  />
                 </div>
               </div>
             )}
