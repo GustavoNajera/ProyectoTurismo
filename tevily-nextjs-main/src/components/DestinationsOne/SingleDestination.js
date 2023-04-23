@@ -22,7 +22,7 @@ const SingleDestination = ({ destination = {} }) => {
             </h2>
           </div>
           <div className="destinations-one__button">
-            <a href="#">{tours} tours</a>
+            <a href="/tour-details">Details</a>
           </div>
         </div>
       </div>
