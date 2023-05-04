@@ -1,0 +1,14 @@
+.image-mask{
+    -webkit-mask-image:url(../assets/images/masks/mask-image6.png);
+    mask-image:url(../assets/images/masks/mask-image6.png);
+    
+    -webkit-mask-position:top left;
+    mask-position:top left;
+    
+    -webkit-mask-repeat:no-repeat;
+    mask-repeat:no-repeat;
+    
+    -webkit-mask-size:100% 100%;
+    mask-size:100% 100%;
+  }
+  

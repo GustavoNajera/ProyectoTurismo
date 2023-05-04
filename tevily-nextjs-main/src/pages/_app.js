@@ -13,6 +13,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import "@/styles/globals.css";
 import "@/styles/tevily.css";
 import "@/styles/tevily-responsive.css";
+import "@/styles/personal-style.css";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
