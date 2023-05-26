@@ -4,13 +4,23 @@ import { Image } from "react-bootstrap";
 
 const {
   title,
-  lists,
-  discount: { image, percent, title: discountTitle },
+  lists
 } = destinationsDetailsRight;
 
-const DestinationsDetailsRight = () => {
+const DestinationsDetailsRight = ({destinationDetail}) => {
   return (
+
     <div className="destinations-details__right">
+      <div className="destinations-details__discount">
+        <Image src={require(`@/images/destination/${destinationDetail.image}`).default.src} alt="" />
+        <div className="destinations-details__discount-content">
+          <h2>{destinationDetail.title}</h2>
+          <h4>
+            <span>{destinationDetail.subTitle}</span>
+          </h4>
+        </div>
+      </div>
+
       <div className="tour-details-two__last-minute tour-details-two__last-minute-2">
         <h3 className="tour-details-two__sidebar-title">{title}</h3>
         <ul className="tour-details-two__last-minute-list list-unstyled">
@@ -23,7 +33,7 @@ const DestinationsDetailsRight = () => {
                 />
               </div>
               <div className="tour-details-two__last-minute-content">
-                <h6>${price}</h6>
+                <h6>Price negociable</h6>
                 <h5>{title}</h5>
                 <p>{subtitle}</p>
               </div>
@@ -31,19 +41,7 @@ const DestinationsDetailsRight = () => {
           ))}
         </ul>
       </div>
-      <div className="destinations-details__discount">
-        <Image src={image.src} alt="" />
-        <div className="destinations-details__discount-content">
-          <h2>{percent}</h2>
-          <h4>
-            {discountTitle.split("\n").map((t, i) => (
-              <Fragment key={i}>
-                <span>{t}</span> <br />
-              </Fragment>
-            ))}
-          </h4>
-        </div>
-      </div>
+      
     </div>
   );
 };

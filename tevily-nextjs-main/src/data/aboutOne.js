@@ -7,7 +7,7 @@ const aboutOne = {
   shape1,
   shape2,
   phone: "7111-4182",
-  //discount: "30%",
+  discount: "Personal attention",
   tagline: "Get to know us",
   title: "Plan Your Trip",
   destination:
@@ -15,7 +15,7 @@ const aboutOne = {
   points: [
     "25+ years of experience",
     "Security",
-    "Transportation services throughout the Costa Rica area",
+    "Transportation services throughout Costa Rica area",
   ],
 };
 

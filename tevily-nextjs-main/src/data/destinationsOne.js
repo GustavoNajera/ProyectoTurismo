@@ -1,77 +1,31 @@
 const destinationsOne = [
   {
     id: 1,
-    image: "destination-1-1.jpg",
-    title: "Central Valley",
-    tours: 4,
-    col: 6,
-  },
-  {
-    id: 2,
-    image: "destination-1-2.jpg",
-    title: "Marino Ballena",
-    tours: 4,
-    subTitle: "National Park",
-    col: 6,
-  },
-  {
-    id: 3,
-    image: "destination-1-3.jpg",
-    title: "Dominical Beach",
-    tours: 4,
+    image: 'destination-1-2.png',
+    title: "Bajos del toro",
+    subTitle: "Alajuela",
     col: 4,
-  },
-  {
-    id: 4,
-    image: "destination-1-4.jpg",
-    title: "La Fortuna Arenal",
-    tours: 4,
-    col: 4,
+    description: 
+    `Lorem ipsum available isn but the majority have suffered alteratin in some or form injected. Lorem Ipsum.
+    Proin gravida nibh vel velit auctor aliqueenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum veliam nec tellus a odio tincidunt auctor.
+    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some injected or words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.`
   },
   {
     id: 5,
-    image: "destination-1-5.jpg",
-    title: "Cahuita",
-    tours: 4,
+    image: 'destination-1-5.jpg',
+    title: "Playa hermosa",
+    subTitle: "Guanacaste",
     col: 4,
+    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some injected or words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,"
   },
   {
-    id: 6,
-    image: "destination-1-6.png",
-    title: "Europe",
-    tours: 6,
-    col: 3,
-  },
-  {
-    id: 7,
-    image: "destination-1-7.png",
-    title: "San Francisco",
-    tours: 6,
-    subTitle: "Adventure",
+    id: 3,
+    image: 'destination-1-3.jpg',
+    title: "Catarata la paz",
+    subTitle: "Alajuela",
     col: 4,
-  },
-  {
-    id: 8,
-    image: "destination-1-8.png",
-    title: "China",
-    tours: 6,
-    subTitle: "Tours",
-    col: 3,
-  },
-  {
-    id: 9,
-    image: "destination-1-9.png",
-    title: "Germany",
-    tours: 6,
-    col: 6,
-  },
-  {
-    id: 10,
-    image: "destination-1-10.png",
-    title: "Dubai",
-    tours: 6,
-    col: 3,
-  },
+    description: "Lorem ipsum available isn but the majority have suffered alteratin in some or form injected. Lorem Ipsum. Proin gravida nibh vel velit auctor aliqueenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum veliam nec tellus a odio tincidunt auctor."
+  }
 ];
 
 export default destinationsOne;

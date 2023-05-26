@@ -1,4 +1,4 @@
-import logo from "@/images/resources/logo-1.png";
+import logo from "@/images/resources/logo-1.jpg";
 import logo2 from "@/images/resources/logo-2.png";
 
 const navItems = [
@@ -38,7 +38,7 @@ const navItems = [
     href: "/destinations",
     subNavItems: [
       { id: 1, name: "Destinations", href: "/destinations" },
-      { id: 2, name: "Destinations Detail", href: "/destinations-details" },
+      { id: 2, name: "Destinations Detail", href: "/destinations/1" },
     ],
   },
   {
