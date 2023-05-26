@@ -1,7 +1,7 @@
 const destinationsOne = [
   {
     id: 1,
-    image: 'destination-1-2.png',
+    image: 'bajos-del-toro.jpg',
     title: "Bajos del toro",
     subTitle: "Alajuela",
     col: 4,
@@ -12,7 +12,7 @@ const destinationsOne = [
   },
   {
     id: 5,
-    image: 'destination-1-5.jpg',
+    image: 'playa-hermosa.png',
     title: "Playa hermosa",
     subTitle: "Guanacaste",
     col: 4,
@@ -20,7 +20,7 @@ const destinationsOne = [
   },
   {
     id: 3,
-    image: 'destination-1-3.jpg',
+    image: 'catarata-la-paz.jpg',
     title: "Catarata la paz",
     subTitle: "Alajuela",
     col: 4,
