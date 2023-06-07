@@ -28,8 +28,7 @@ const MainSlider = () => {
             <SingleSlide key={slide.id} slide={slide} />
           ))}
         </div>
-        {/*}
-        <div className="main-slider-nav">
+        {/* <div className="main-slider-nav">
           <div
             id="main-slider__swiper-button-prev"
             className="main-slider-button-prev"
@@ -42,8 +41,7 @@ const MainSlider = () => {
           >
             <span className="icon-right-arrow"></span>{" "}
           </div>
-        </div>
-          */}
+        </div> */}
       </Swiper>
     </section>
   );
