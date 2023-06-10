@@ -8,11 +8,11 @@ const DestinationsDetailsPage = ({destinationDetail}) => {
     <section className="destinations-details">
       <Container>
         <Row>
-          <Col xl={8} lg={7}>
-            <DestinationsDetailsLeft destinationDetail={destinationDetail}/>
-          </Col>
           <Col xl={4} lg={5}>
             <DestinationsDetailsRight destinationDetail={destinationDetail}/>
+          </Col>
+          <Col xl={8} lg={7}>
+            <DestinationsDetailsLeft destinationDetail={destinationDetail}/>
           </Col>
         </Row>
       </Container>

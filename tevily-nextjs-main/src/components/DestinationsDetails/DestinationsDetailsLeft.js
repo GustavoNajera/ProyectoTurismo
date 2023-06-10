@@ -32,6 +32,15 @@ const DestinationsDetailsLeft = ({destinationDetail}) => {
         </ul>
       </div>
       <DestinationsDetailsFaq faqs={faqs} />
+
+      <div className="tour-details-two__location">
+        <h3 className="tour-details-two__title">Location</h3>
+        <iframe src={destinationDetail.location} 
+          className="tour-details-two__location-map"
+          allowFullScreen
+        ></iframe>
+      </div>
+
     </div>
   );
 };

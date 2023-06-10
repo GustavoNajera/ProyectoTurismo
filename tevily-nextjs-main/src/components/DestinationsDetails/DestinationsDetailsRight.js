@@ -21,7 +21,7 @@ const DestinationsDetailsRight = ({destinationDetail}) => {
         </div>
       </div>
 
-      <div className="tour-details-two__last-minute tour-details-two__last-minute-2">
+      {/*<div className="tour-details-two__last-minute tour-details-two__last-minute-2">
         <h3 className="tour-details-two__sidebar-title">{title}</h3>
         <ul className="tour-details-two__last-minute-list list-unstyled">
           {lists.map(({ id, image, price, title, subtitle }) => (
@@ -40,7 +40,7 @@ const DestinationsDetailsRight = ({destinationDetail}) => {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
       
     </div>
   );

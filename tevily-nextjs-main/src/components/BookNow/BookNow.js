@@ -2,7 +2,7 @@ import bookNow from "@/data/bookNow";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-const { bg, subtitle, title } = bookNow;
+const { bg, subtitle, title, phone } = bookNow;
 
 const BookNow = () => {
   return (
@@ -20,8 +20,8 @@ const BookNow = () => {
                 <h2>{title}</h2>
               </div>
               <div className="book-now__right">
-                <a href="#" className="thm-btn book-now__btn">
-                  Book tour now
+                <a href={`tel:${phone}`} className="thm-btn book-now__btn">
+                  Book trip now
                 </a>
               </div>
             </div>

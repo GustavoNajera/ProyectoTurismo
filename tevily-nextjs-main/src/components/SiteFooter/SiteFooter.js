@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 
-const { logo, icons, companies, explore, social, year, author, about } =
+const { logo, icons, companies, explore, social, year, author, about, phone } =
   footerData;
 
 const SiteFooter = () => {
@@ -24,7 +24,11 @@ const SiteFooter = () => {
                   <div className="footer-widget__about-logo">
                     <Link href="/">
                       <a>
-                        <Image src={logo.src} alt="" />
+                        <Image 
+                          src={logo.src} 
+                          alt="" 
+                          className="logo-menu"
+                        />
                       </a>
                     </Link>
                   </div>
@@ -80,25 +84,15 @@ const SiteFooter = () => {
               <Col xl={4} lg={6} md={6} className="animated fadeInUp">
                 <div className="footer-widget__column footer-widget__newsletter">
                   <h3 className="footer-widget__title">Newsletter</h3>
-                  <form
-                    className="footer-widget__newsletter-form mc-form"
-                    onSubmit={handleSubmit}
-                  >
                     <div className="footer-widget__newsletter-input-box">
-                      <input
-                        type="email"
-                        placeholder="Email address"
-                        name="email"
-                        required
-                      />
-                      <button
+                      <a
                         type="submit"
                         className="footer-widget__newsletter-btn"
+                        href={`tel:${phone}`}
                       >
-                        Subscribe
-                      </button>
+                        Contact us
+                      </a>
                     </div>
-                  </form>
                   <div className="mc-form__response text-center"></div>
                   <div className="footer-widget__newsletter-bottom">
                     <div className="footer-widget__newsletter-bottom-icon">

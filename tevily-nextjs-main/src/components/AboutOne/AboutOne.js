@@ -42,10 +42,6 @@ const AboutOne = () => {
                     </h4>
                   </div>
                 </div>
-                {/*<div className="about-one__discount">
-                  <h2>{discount}</h2>
-                  <h3>Discount</h3>
-                </div>*/}
               </div>
             </div>
           </Col>
@@ -68,7 +64,7 @@ const AboutOne = () => {
                   </li>
                 ))}
               </ul>
-              <a href="#" className="about-one__btn thm-btn">
+              <a href={`tel:${phone}`} className="about-one__btn thm-btn">
                 Book with us now
               </a>
             </div>

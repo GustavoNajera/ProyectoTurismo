@@ -5,7 +5,7 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import NavItem from "./NavItem";
 
-const { social, logo, navItems } = headerData;
+const { social, logo, navItems, logoMobile } = headerData;
 
 const MobileMenu = () => {
   const { toggleMenu, menuStatus } = useRootContext();
@@ -31,7 +31,7 @@ const MobileMenu = () => {
         <div className="logo-box">
           <Link href="/">
             <a aria-label="logo image">
-              <Image src={logo.src} width={155} alt="" />
+              <Image src={logoMobile.src} width={155} alt="" />
             </a>
           </Link>
         </div>

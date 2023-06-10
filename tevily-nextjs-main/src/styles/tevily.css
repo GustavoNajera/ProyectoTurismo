@@ -3498,12 +3498,14 @@ ul {
   font-weight: 700;
   color: var(--thm-base);
   text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
   letter-spacing: 0.1em;
   background-color: var(--thm-primary);
   outline: none;
   border: none;
   border-radius: var(--thm-border-radius);
-  padding: 17px 140px 16px;
   margin-top: 10px;
   transition: all 500ms ease;
 }

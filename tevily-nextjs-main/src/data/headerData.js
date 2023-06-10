@@ -1,5 +1,5 @@
-import logo from "@/images/resources/logo-1.jpg";
-import logo2 from "@/images/resources/logo-2.png";
+import logo from "@/images/resources/logo-1.png";
+import logoMobile from "@/images/resources/logo-blanco.png";
 
 const navItems = [
   {
@@ -99,7 +99,7 @@ const headerData = {
   navItems,
   social,
   logo,
-  logo2,
+  logoMobile
 };
 
 export default headerData;

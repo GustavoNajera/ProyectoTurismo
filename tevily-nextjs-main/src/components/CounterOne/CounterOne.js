@@ -10,7 +10,7 @@ const CounterOne = () => {
           {counterOne.map(({ id, text, count }) => (
             <li key={id} className="counter-one__single animated fadeInUp">
               <h3 className="odometer">
-                <VisibilityCountUp count={count} />
+                <VisibilityCountUp count={count} />+
               </h3>
               <p className="counter-one__text">{text}</p>
             </li>

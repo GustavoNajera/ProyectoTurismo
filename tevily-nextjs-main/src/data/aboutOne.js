@@ -11,11 +11,11 @@ const aboutOne = {
   tagline: "Get to know us",
   title: "Plan Your Trip",
   destination:
-    "There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.",
+    "Choose the destination, we take care of taking you there.",
   points: [
-    "25+ years of experience",
-    "Security",
-    "Transportation services throughout Costa Rica area",
+    "Choose the destination",
+    "Contact to San José Airport Shuttle",
+    "Enjoy the trip",
   ],
 };
 

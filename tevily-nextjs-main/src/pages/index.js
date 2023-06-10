@@ -8,20 +8,17 @@ import VideoTwo from "@/components/VideoTwo/VideoTwo";
 import CounterOne from "@/components/CounterOne/CounterOne";
 import NewsTwo from "@/components/NewsTwo/NewsTwo";
 import BookNow from "@/components/BookNow/BookNow";
-import TourTypes from "@/components/TourTypes/TourTypes";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home One">
+    <Layout pageTitle="Home">
       <MainSlider />
       <ThreeIconBox />
       <AboutOne />
-      <TourTypes />
       <VideoTwo />
       <CounterOne />
       <DestinationsOne />
       <BookNow />
-      <NewsTwo />
     </Layout>
   );
 };
