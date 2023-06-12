@@ -6,8 +6,7 @@ const NavItem = ({ navItem = {} }) => {
   const { pathname } = useRouter();
 
   const { name, href, subNavItems } = navItem;
-  const subHref = subNavItems.map((item) => item.href);
-  const current = pathname === href || subHref.includes(pathname);
+  const current = pathname === href;
 
   return (
     <li className={`dropdown${current ? " current" : ""}`}>

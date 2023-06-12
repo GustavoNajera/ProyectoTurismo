@@ -1,9 +1,7 @@
 import logo from "@/images/resources/footer-logo.png";
 
 const social = [
-  { icon: "fa-twitter", link: "" },
   { icon: "fa-facebook-square", link: "" },
-  { icon: "fa-pinterest-p", link: "" },
   { icon: "fa-instagram", link: "" },
 ];
 
@@ -30,8 +28,7 @@ const footerData = {
     }
   ],
   companies: [
-    { id: 1, link: "/about", title: "About Us" },
-    { id: 4, link: "#", title: "Work with Us" },
+    { id: 1, link: "/about", title: "About Us" }
   ],
   explore: [
     { id: 3, link: "tel:71114182", title: "Contact" },
