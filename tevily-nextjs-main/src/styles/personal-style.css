@@ -16,3 +16,19 @@
   .logo-menu{
     height: 80px;
   }
+
+  .recortar-img{
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .recortar-img > img {
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+  }

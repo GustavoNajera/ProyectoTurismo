@@ -2,7 +2,7 @@ import destinationsOne from "@/data/destinationsOne";
 import React from "react";
 import { Container } from "react-bootstrap";
 import Masonry from "react-masonry-component";
-import SingleDestination from "../DestinationsOne/SingleDestination";
+import SingleDestinationList from "./SingleDestinationList";
 
 const DestinationsPage = () => {
   return (
@@ -10,7 +10,7 @@ const DestinationsPage = () => {
       <Container>
         <Masonry className="row position-relative">
           {destinationsOne.map((destination) => (
-            <SingleDestination key={destination.id} destination={destination} />
+            <SingleDestinationList key={destination.id} destination={destination} />
           ))}
         </Masonry>
       </Container>

@@ -8,7 +8,7 @@ const SingleDestination = ({ destination = {} }) => {
   return (
       <Col xl={col} lg={col}>
         <div className="destinations-one__single">
-          <div className="destinations-one__img">
+          <div className="destinations-one__img recortar-img">
             <Image
               src={require(`@/images/destination/${image}`).default.src}
               alt=""
