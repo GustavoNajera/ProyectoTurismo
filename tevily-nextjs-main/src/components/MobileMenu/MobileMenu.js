@@ -5,7 +5,7 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import NavItem from "./NavItem";
 
-const { social, logo, navItems, logoMobile } = headerData;
+const { social, navItems, logoMobile, icons } = headerData;
 
 const MobileMenu = () => {
   const { toggleMenu, menuStatus } = useRootContext();
@@ -43,16 +43,17 @@ const MobileMenu = () => {
           </ul>
         </div>
 
+
         <ul className="mobile-nav__contact list-unstyled">
-          <li>
-            <i className="fa fa-envelope"></i>
-            <a href="mailto:needhelp@packageName__.com">needhelp@tevily.com</a>
-          </li>
-          <li>
-            <i className="fa fa-phone-alt"></i>
-            <a href="tel:666-888-0000">666 888 0000</a>
-          </li>
+          {icons.map(({ id, icon, content, subHref }) => (            
+            <li key={id}>
+              <i className={(icon=="icon-phone-call")?"fa fa-phone-alt":"fa fa-envelope"}></i>
+              <a href={`${subHref}:${content}`}>{content}</a>
+            </li>
+          ))}
         </ul>
+        
+
         <div className="mobile-nav__top">
           <div className="mobile-nav__social">
             {social.map(({ icon, link }, index) => (
