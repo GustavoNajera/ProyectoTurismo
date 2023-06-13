@@ -9,23 +9,8 @@ const Information = () => {
     <section className="information">
       <Container>
         <Row>
-          <Col xl={4} lg={4}>
-            <div className="information__single">
-              <div className="information__icon">
-                <span className="icon-place"></span>
-              </div>
-              <div className="information__text">
-                <p>
-                  {address.split("\n").map((t, i) => (
-                    <Fragment key={i}>
-                      <span>{t}</span> <br />
-                    </Fragment>
-                  ))}
-                </p>
-              </div>
-            </div>
-          </Col>
-          <Col xl={4} lg={4}>
+          
+          <Col xl={6} lg={6}>
             <div className="information__single">
               <div className="information__icon">
                 <span className="icon-phone-call"></span>
@@ -47,7 +32,7 @@ const Information = () => {
               </div>
             </div>
           </Col>
-          <Col xl={4} lg={4}>
+          <Col xl={6} lg={6}>
             <div className="information__single">
               <div className="information__icon">
                 <span className="icon-at"></span>

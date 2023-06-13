@@ -18,21 +18,25 @@ const AboutPage = () => {
     <section className="about-page">
       <Container>
         <Row>
-          <Col xl={6}>
+          <Col xl={5}>
             <div className="about-page__left">
               <div className="about-page__img">
-                <Image src={image.src} alt="" />
+                <Image src={image.src} alt="" className="image-mask"/>
               </div>
             </div>
           </Col>
-          <Col xl={6}>
+          <Col xl={7}>
             <div className="about-page__right">
               <div className="section-title text-left">
                 <span className="section-title__tagline">{tagline}</span>
                 <h2 className="section-title__title">{title}</h2>
               </div>
               <p className="about-page__text-1">{text1}</p>
-              <p className="about-page__text-2">{text2}</p>
+
+              {text2.split("\n").map((text, identifier) => (
+                <p key={identifier} className="about-page__text-2">{text}</p>
+              ))}
+
               <div className="about-page__progress">
                 {progress.map(({ id, title, count }) => (
                   <div className="about-page__progress-single" key={id}>

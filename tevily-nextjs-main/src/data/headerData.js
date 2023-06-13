@@ -19,13 +19,7 @@ const navItems = [
     name: "About",
     href: "/about",
     subNavItems: [],
-  },
-  {
-    id: 6,
-    name: "Contact",
-    href: "/contact",
-    subNavItems: [],
-  },
+  }
 ];
 
 const social = [
