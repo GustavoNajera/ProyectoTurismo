@@ -5,16 +5,15 @@ import React from "react";
 import destinationsOne from "@/data/destinationsOne";
 import { useRouter } from 'next/router';
 
-
 const DestinationsDetails = () => {
-  const destinationDetail = getDestinationDetail();
+  const destinationDetail = GetDestinationDetail();
   if(!destinationDetail)
     return pageGettingData();
   return pageDetail(destinationDetail);
 };
 
 
-const getDestinationDetail = () =>{
+const GetDestinationDetail = () =>{
   const router = useRouter();
   const destinationId = Number(router.query.destinationId);
   return destinationsOne.find(d => d.id === destinationId);

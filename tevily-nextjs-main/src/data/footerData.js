@@ -1,8 +1,7 @@
 import logo from "@/images/resources/footer-logo.png";
 
 const social = [
-  { icon: "fa-facebook-square", link: "" },
-  { icon: "fa-instagram", link: "" },
+  { icon: "fa-instagram", link: "https://instagram.com/transturist_bcj?igshid=MzRlODBiNWFlZA==" },
 ];
 
 const footerData = {
@@ -12,7 +11,7 @@ const footerData = {
   year: new Date().getFullYear(),
   author: "San José Airport Shuttle",
   about:
-    "Welcome to San José Airport Shuttle, your best travel travel agency",
+    "Welcome to San José Airport Shuttle, your best travel agency",
   icons: [
     {
       id: 1,
@@ -29,10 +28,7 @@ const footerData = {
   ],
   companies: [
     { id: 1, link: "/about", title: "About Us" }
-  ],
-  explore: [
-    { id: 3, link: "tel:71114182", title: "Contact" },
-  ],
+  ]
 };
 
 export default footerData;

@@ -14,7 +14,7 @@ const ThreeIconBox = [
   {
     id: 3,
     icon: "icon-travel",
-    title: "Best pachage selection",
+    title: "Best package selection",
     text: "We are excited waiting to help you in order to book your best experience.",
   },
 ];

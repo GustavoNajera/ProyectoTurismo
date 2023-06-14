@@ -4,7 +4,7 @@ const videoTwo = {
   bg,
   videoId: "QTUUVmwB0Tg",
   tagline: "Are you ready for Costa Rica?",
-  title: "With us, you will enjoy this paradise \n From north to south",
+  title: "With us, you will enjoy this paradise\nfrom north to south",
 };
 
 export default videoTwo;

@@ -10,7 +10,7 @@ const { icons, navItems, social, logo } = headerData;
 
 const Header = ({ pageTitle }) => {
   const scrollTop = useScroll(130);
-  const { toggleMenu, toggleSearch } = useRootContext();
+  const { toggleMenu } = useRootContext();
 
   return (
     <header
@@ -34,22 +34,6 @@ const Header = ({ pageTitle }) => {
                   </li>
                 ))}
               </ul>
-            </div>
-            <div className="main-header__top-right">
-              <div className="main-header__top-right-inner">
-                <div className="main-header__top-right-social">
-                  {social.map(({ icon, link }, index) => (
-                    <a href={link} key={index}>
-                      <i className={`fab ${icon}`}></i>
-                    </a>
-                  ))}
-                </div>
-                <div className="main-header__top-right-btn-box">
-                  <a href="#" className="thm-btn main-header__top-right-btn">
-                    Become a local guide
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
         </Container>
