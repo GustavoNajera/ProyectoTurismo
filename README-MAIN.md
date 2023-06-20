@@ -12,16 +12,5 @@ https://www.google.com/search?q=splash+image+png&rlz=1C1CHBF_esCR952CR953&sxsrf=
 
 
 
-Enrutamiento dinámico vs estático (tutorial utilizado)
-https://spacejelly.dev/posts/how-to-create-pages-in-next-js-with-static-dynamic-data/
-
-
-re-renders-guide (PARA ESTUDIAR EL ERROR QUE DA POR CARGAR 4 VECES)
-https://www.developerway.com/posts/react-re-renders-guide
-
-https://stackoverflow.com/questions/45154623/react-component-losing-props-after-first-render
-
-https://www.google.com/search?q=lose+props+when+layaut+rerender&rlz=1C1CHBF_esCR952CR953&oq=lose+props+when+layaut+rerender&aqs=chrome..69i57j33i10i160l4.16766j0j7&sourceid=chrome&ie=UTF-8
-
 
 
