@@ -26,7 +26,7 @@ const social = [
   { 
     icon: "fa-instagram", 
     link: "https://instagram.com/transturist_bcj?igshid=MzRlODBiNWFlZA==",
-    content: "Instagram"
+    content: "San José Airport Shuttle"
   },
 ];
 
