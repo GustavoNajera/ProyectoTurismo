@@ -23,8 +23,11 @@ const navItems = [
 ];
 
 const social = [
-  { icon: "fa-facebook-square", link: "" },
-  { icon: "fa-instagram", link: "" },
+  { 
+    icon: "fa-instagram", 
+    link: "https://instagram.com/transturist_bcj?igshid=MzRlODBiNWFlZA==",
+    content: "Instagram"
+  },
 ];
 
 const headerData = {

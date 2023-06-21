@@ -7,6 +7,7 @@ import { Container, Image } from "react-bootstrap";
 import NavItem from "./NavItem";
 
 const { icons, navItems, social, logo } = headerData;
+const firstSocial = social[0];
 
 const Header = ({ pageTitle }) => {
   const scrollTop = useScroll(130);
@@ -33,6 +34,15 @@ const Header = ({ pageTitle }) => {
                     </div>
                   </li>
                 ))}
+
+                <li key={3}>
+                    <div className="icon">
+                      <span className={`fab ${firstSocial.icon}`}></span>
+                    </div>
+                    <div className="text">
+                      <a target="_blank" rel="noreferrer" href={firstSocial.link}> {firstSocial.content}</a>
+                    </div>
+                  </li>
               </ul>
             </div>
           </div>
