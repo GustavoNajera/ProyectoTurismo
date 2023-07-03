@@ -6,7 +6,7 @@ const aboutOne = {
   about,
   shape1,
   shape2,
-  phone: "7111-4182",
+  phone: "+506 7111-4182",
   discount: "Personal attention",
   tagline: "Get to know us",
   title: "Plan Your Trip",

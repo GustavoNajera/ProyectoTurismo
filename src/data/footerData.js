@@ -7,7 +7,7 @@ const social = [
 const footerData = {
   logo,
   social,
-  phone: '71114182',
+  phone: '+506 7111-4182',
   year: new Date().getFullYear(),
   author: "San José Airport Shuttle",
   about:
@@ -16,7 +16,7 @@ const footerData = {
     {
       id: 1,
       icon: "fas fa-phone-square-alt",
-      content: "71114182",
+      content: "+506 7111-4182",
       subHref: "tel",
     },
     {

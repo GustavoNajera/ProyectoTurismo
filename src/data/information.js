@@ -1,5 +1,5 @@
 const information = {
-  phones: ["71114182"],
+  phones: ["+506 7111-4182"],
   mails: ["sanjoseairportshuttlecr@gmail.com"],
 };
 

@@ -35,7 +35,7 @@ const headerData = {
     {
       id: 1,
       icon: "icon-phone-call",
-      content: "71114182",
+      content: "+506 7111-4182",
       subHref: "tel",
     },
     {
