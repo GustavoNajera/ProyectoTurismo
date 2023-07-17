@@ -1,7 +1,7 @@
 import logo from "@/images/resources/footer-logo.png";
 
 const social = [
-  { icon: "fa-instagram", link: "https://instagram.com/transturist_bcj?igshid=MzRlODBiNWFlZA==" },
+  { icon: "fa-instagram", link: "https://instagram.com/transportes_bcj?igshid=MzRlODBiNWFlZA==" },
 ];
 
 const footerData = {

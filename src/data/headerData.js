@@ -25,7 +25,7 @@ const navItems = [
 const social = [
   { 
     icon: "fa-instagram", 
-    link: "https://instagram.com/transturist_bcj?igshid=MzRlODBiNWFlZA==",
+    link: "https://instagram.com/transportes_bcj?igshid=MzRlODBiNWFlZA==",
     content: "San José Airport Shuttle"
   },
 ];
