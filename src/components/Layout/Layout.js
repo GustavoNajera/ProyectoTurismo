@@ -6,6 +6,7 @@ import React, { useEffect, useState } from "react";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import Search from "../Search/Search";
 import SiteFooter from "../SiteFooter/SiteFooter";
+import WhatsApp from "@/components/WhatsApp/WhatsApp";
 
 const Layout = ({ children, pageTitle }) => {
   const [loading, setLoading] = useState(true);
@@ -30,6 +31,7 @@ const Layout = ({ children, pageTitle }) => {
         <Header pageTitle={pageTitle} />
         {children}
         <SiteFooter />
+        <WhatsApp/>
       </main>
       {menuStatus && <MobileMenu />}
       <Search />

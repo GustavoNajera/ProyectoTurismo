@@ -14,6 +14,7 @@ import "@/styles/globals.css";
 import "@/styles/tevily.css";
 import "@/styles/tevily-responsive.css";
 import "@/styles/personal-style.css";
+import "@/styles/whatsAppStyle.css"
 
 const MyApp = ({ Component, pageProps }) => {
   return (
